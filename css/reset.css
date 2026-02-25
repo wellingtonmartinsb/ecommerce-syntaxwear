@@ -1,0 +1,142 @@
+/* Reset CSS baseado no reset de Andy Bell */
+
+/* Remove todos os estilos padrão do navegador */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove padding padrão */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove lista de estilos padrão */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove estilos padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove estilos padrão de imagens */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove estilos padrão de botões e inputs */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Remove outline padrão e define um outline customizado */
+:focus {
+  outline: 2px solid #0070f3;
+  outline-offset: 2px;
+}
+
+/* Remove estilos padrão de fieldset e legend */
+fieldset {
+  border: none;
+  padding: 0;
+}
+legend {
+  padding: 0;
+}
+
+/* Remove estilos padrão de blockquote */
+blockquote {
+  border: none;
+}
+
+/* Remove estilos padrão de iframe */
+iframe {
+  border: none;
+}
+
+/* Remove estilos padrão de hr */
+hr {
+  border: none;
+  height: 1px;
+  background: #eaeaea;
+}
+
+/* Remove estilos padrão de pre e code */
+pre,
+code {
+  font-family: inherit;
+}
+
+/* Remove estilos padrão de abbr */
+abbr[title] {
+  border-bottom: none;
+}
+
+/* Remove estilos padrão de strong e b */
+strong,
+b {
+  font-weight: bold;
+}
+
+/* Remove estilos padrão de em e i */
+em,
+i {
+  font-style: italic;
+}
+
+/* Remove estilos padrão de small */
+small {
+  font-size: 80%;
+}
+
+/* Remove estilos padrão de sub e sup */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
